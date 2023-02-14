@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>homework</title>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Christian barillas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#ejecicio3">Ejecicio3</a>
+          <a class="nav-link" href="#ejecicio6">Ejecicio6</a>
+          <a class="nav-link disabled">Ejercico7</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- 
+      En un municipio se desea cobrar el paso de vehículos por su nuevo Puente, con
+los siguientes datos:
+Vehículo Impuesto
+Vehículo Particular $0.75
+Autobús $1.50
+Microbús $1.25
+Moto taxi $0.50
+Moto $0.30
+Otros $3.00
+Mostrar el impuesto a pagar en base al tipo de vehículo que se ingrese por
+medio de una variable, utilizando la estructura switch. -->
+
+   <section id="ejecicio3">
+
+    <label> Elige el medio de tranporte para saber su impuesto en el Salvador!</label>
+   
+    <select name="transporte" id="transporte" >
+    
+      <option selected>Seleccione una opcion</option>
+      <option value="vehiculoparticular">Vehículo particular</option>
+      <option value="autobus">autobus</option>
+      <option value="microbus">microbus</option>
+      <option value="mototaxi">mototaxi</option>
+      <option value="moto">moto</option>
+      <option value="otro">otros</option>
+   
+
+  </select>
+
+
+   </section>
+
+
+
+
+
+
+
+
+
+   
+
+
+   <section id="ejecicio6">
+
+    <!-- Una empresa se dedica a la venta de impresoras, cada impresora tiene el
+    precio de $70.00.
+    Crea una función que pida 2 parámetros, la cantidad de impresoras a vender y
+    la forma de pago. En base a la forma de pago se va aplicar los siguientes
+    descuentos:
+    Forma de pago Descuento
+    Efectivo 10%
+    Tarjeta de Crédito  5%
+    Vale 15%
+    Se debe mostrar:
+    Cantidad de impresoras.
+    Forma de pago y el descuento que se va aplicar. -->
+
+<label>
+  Digite los valores para saber el descuento de su compra
+  
+</label>
+
+<input type="text" name="cantidad" placeholder="Catidad de impresoras">
+
+<select name="pago" placeholder="Forma de pago" id="pago">
+
+  <option selected>Forma de pago</option>
+  <option value="efectivo">Efectivo</option>
+  <option value="credito">Credito</option>
+  <option value="vale">Vale</option>
+ 
+
+  </select>
+
+
+   </section>
+    
+    
+</body>
+<script src="codigo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
